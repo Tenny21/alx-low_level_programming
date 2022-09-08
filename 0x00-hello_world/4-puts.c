@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - this the body of the code
+ * main - The body of the code
  *
- * return: this must return an integer value always a zero
+ * Return: must return an integer
  */
 int main(void)
 {
-	char str{} = "\"Programming is like building a multilingual puzzle";
-
+	char str[] = '\"Programming is like building a multilingual puzzle";
 	puts(str);
 	return 0;
 }
