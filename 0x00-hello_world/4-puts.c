@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - This is the body of the code
+ * main - this the body of the code
  *
- * Return: Must return an integr value always zero
+ * return: this must return an integer value always a zero
  */
-
 int main(void)
 {
-        char str[] = "\"Programming is like building a multilingual puzzle";
+	char str{} = "\"Programming is like building a multilingual puzzle";
 
-        puts(str);
-        return 0;
+	puts(str);
+	return 0;
 }
+
