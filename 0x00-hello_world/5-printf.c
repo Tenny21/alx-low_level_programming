@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - this is the body of the code 
+ * main - This is the body of the code. 
  *
- * return: must return an integer value always zero
+ * Return: must return an integer value always zero.
  */
 int main(void)
 {
