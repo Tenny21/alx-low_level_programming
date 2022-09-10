@@ -10,7 +10,7 @@ int main(void)
 	char u[] = "abcdfghijklmnoprstuvwxyz";
 	int l = 0;
 
-	while (u[l] != '\n' && u[l] != '\n')
+	while (u[l] != '\0' && u[l] != '\n')
 	{
 		putchar(u[l]);
 		l++;
