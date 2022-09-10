@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - contains the body of the code
+ * main - must contains the body of the code
  *
  * Description: prints lowercase alphabets
  *
