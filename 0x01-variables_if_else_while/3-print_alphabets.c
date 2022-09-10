@@ -6,16 +6,14 @@
  * Return: must return an integer zero
  */
 int main(void)
-{
-	char c = 'a';
+{	
+	char e[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int l = 0;
 
-	for (c <= 'z'; c++;)
-	{
-		putchar( c);
-	}
-	for (char h = 'A'; h <= 'Z'; h++)
-	{
-		putchar( h);
+	while (e[l] != '\0' && e[l] != '\n')
+	{	
+		putchar(e[l]);
+		l++;
 	}
 	putchar('\n');
 	return (0);
