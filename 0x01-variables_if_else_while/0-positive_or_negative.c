@@ -5,7 +5,7 @@
 /**
  * main - this is the body of the code
  *
- * return: must return an integer zero
+ * Return: must return an integer zero
  */
 int main(void)
 {
