@@ -17,23 +17,24 @@ int main(void)
 			{
 				for (d = 48; d <= 57; d++)
 				{
-					if (((c + d) > (a + b) && c >= a) || a < c)
-					{
-						putchar(a);
-						putchar(b);
-						putchar(' ');
-						putchar(c);
-						putchar(d);
+				if (((c + d) > (a + b) && c >= a) || a < c)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(' ');
+					putchar(c);
+					putchar(d);
 
-						if (a + b + c + d == 227 && a == 57)
-						{
-							break;
-						} else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (a + b + c + d == 227 && a == 57)
+					{
+					break;
 					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
+				}
 				}
 			}
 		}
