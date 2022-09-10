@@ -11,7 +11,7 @@
 int main(void)
 {
 	char c[] = "abcdefghijklmnopqrstuvwxyz";
-	int l =0;
+	int l = 0;
 
 	while (c[l] != '\0' && c[l] != '\n')
 	{
