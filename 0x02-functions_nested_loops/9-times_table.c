@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - prints the multiplication timetable
+ * times_table - prints the multiplication timetable
  *
  * Return: returns zero
  */
@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			z = x * y;
 
-			if(z > 9)
+			if (z > 9)
 			{
 				_putchar(z / 10 + '0');
 				_putchar(z % 10 + '0');
