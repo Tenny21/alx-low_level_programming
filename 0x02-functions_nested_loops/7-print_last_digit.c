@@ -2,14 +2,20 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @i: integer type variable
+ * @c: integer type variable
  *
  * Return: returns in int
  */
 
-int print_last_digit(int n)
+int print_last_digit(int c)
 {
-	int d = n % 10;
-	return (d);
+	c = c % 10;
+
+	if (c < 0)
+	{
+		c = c * -1;
+	}
+	_putchar('0' + c);
+	return (c);
 }
 
