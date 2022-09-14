@@ -4,27 +4,21 @@
 /**
  * print_alphabet- pribnt lowercase alphabet
  *
- * main- body of the code
  * Description: print lowercase alphabets
  * Return: must return an integer zero
  */
 
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-	return (0);
-}
-
 void print_alphabet(void)
 {
-	int c;
+	char c[] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 0;
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (c[i] != '\0' || c[i] != '\n')
 	{
-		putchar(c);
+		putchar(c[i]);
+		i++;
 	}
+	putchar('\n');
+
 }
 
