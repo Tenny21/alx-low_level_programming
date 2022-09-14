@@ -3,7 +3,8 @@
 /**
  * _abs - prints the  absolute value of a number
  * @n: integer type value
- * Returns: returns an int
+ *
+ * Return: returns an int
  */
 
 int _abs(int n)
@@ -15,7 +16,7 @@ int _abs(int n)
 	}
 	else
 	{
-		return(n);
+		return (n);
 	}
 }
 
