@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints square
- * @n: int type value
+ * @size: int type value
  *
  * Return: returns an int
  */
