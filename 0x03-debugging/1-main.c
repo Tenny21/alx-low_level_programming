@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- * \\o/\n": sign
  *
  * Return: 0
  */
@@ -18,9 +17,11 @@ int main(void)
  *	while (i < 10) - while loop
  *	{
  *		putchar(i);
- *	} - end of loop
- */
-	printf("Infinite loop avoided! \\o/\n");
+ *
+ *	}
+*/
+ 	printf("Infinite loop avoided! \\o/\n");
+
 	return (0);
 }
 
