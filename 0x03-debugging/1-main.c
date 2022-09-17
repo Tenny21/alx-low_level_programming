@@ -16,7 +16,7 @@ int main(void)
 	/**
 	*while (i < 10) - while loop
 	*{
-	*		putchar(i);
+	*	putchar(i);
 	*}
 	*/
 
