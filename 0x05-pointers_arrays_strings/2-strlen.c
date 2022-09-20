@@ -3,7 +3,7 @@
 /**
  * _strlen - returns the length of an int
  *
- * @s char to check
+ * @s: char to check
  *
  * Description: this will check the lenth of an int an return its value
  * Return: an int
