@@ -1,25 +1,23 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncat - concatenates half of the string
  * @dest: destination string
  * @src: source string
- *
+ *@n: the number of characters
+
  * Return: returns the destination string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int a, b, m;
+	int len1, i;
 
-	for (a = 0; dest[a] != '\0'; a++)
+	len1 = strlen(dest);
+
+	for (i = 0; i <= n; i++)
 	{
-	}
-	for (b = 0; src[b] != 0; m++)
-	{
-	}
-	for (m = 0; m < n && m < b; m++, a++)
-	{
-		dest[a] = src[m];
+		dest[len1 + i] = src[i];
 	}
 	return (dest);
 }
