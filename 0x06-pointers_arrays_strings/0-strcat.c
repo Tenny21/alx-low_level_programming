@@ -11,18 +11,28 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int len1, len2, i;
-	char *ptr;
 
-	len1 = strlen(dest);
-	len2 = strlen(src);
+	int dlen = 0, i;
 
-	for (i = 0; i <= len2; i++)
-		dest[len1 + i] = src[i];
-	printf("%s\n", dest);
+	while (dest[dlen])
 
-	ptr = dest;
+	{
 
-	return (ptr);
+		dlen++;
+
+	}
+
+	for (i = 0; src[i] != 0; i++)
+
+	{
+
+		dest[dlen] = src[i];
+
+		dlen++;
+
+	}
+
+	dest[dlen] = '\0';
+
+	return (dest);
 }
-
