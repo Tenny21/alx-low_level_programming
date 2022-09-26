@@ -2,6 +2,7 @@
 
 /*
  * _memset - sets value to memory location
+ *
  * @s: pointer to the destination variable
  * @b: variable to be asigned
  * @n: number of byte
@@ -10,10 +11,10 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
 	for (i = 0; i < n; i++)
-		*s = b;
+		s[i] = b;
 	return (s);
 }
 
