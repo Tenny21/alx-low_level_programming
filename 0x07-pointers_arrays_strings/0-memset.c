@@ -1,8 +1,7 @@
 #include "main.h"
 
-/*
- * _memset - sets value to memory location
- *
+/**
+ * _memset - fills memory with a constant byte
  * @s: pointer to the destination variable
  * @b: variable to be asigned
  * @n: number of byte
