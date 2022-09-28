@@ -5,7 +5,7 @@
  * @x: first num
  * @y: sec num
  *
- * return: returns an int
+ * Return: returns an int
  */
 int _pow_recursion(int x, int y)
 {
