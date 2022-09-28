@@ -8,18 +8,10 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int i, j;
-
-	i = -1;
-	j = 0;
-
-	if (s[i] == s[j])
-		_putchar('\n');
-	else
+	if (*s)
 	{
-		i--;
-		_putchar(s[i]);
 		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
 
