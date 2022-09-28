@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * find_rt - returns the the natural square
- * @n: integer
+ * find_sqrt - returns the the natural square
+ * @num: integer
  * @root: root
  *
  * Return: returns int
  */
-int find_rt(int n, int root)
+int find_sqrt(int num, int root)
 {
-	if (n / root == root)
+	if ((root * root) == num)
 		return (root);
-	if (n / 2 == root)
+
+	if (root == num / 2)
 		return (-1);
-	return (find_rt(n, root + 1));
+	return (find_sqrt(num, root + 1));
 }
+
 
 /**
  * _sqrt_recursion - returns the natural square root
@@ -31,6 +33,6 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 
-	return (find_rt(n, root));
+	return (find_sqrt(n, root));
 }
 
