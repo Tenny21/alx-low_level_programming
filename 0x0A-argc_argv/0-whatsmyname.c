@@ -8,7 +8,7 @@
  *
  * Return: returns an int
  */
-int main(int argc, char *argv[])
+int __attribute__ ((unused)) main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 
