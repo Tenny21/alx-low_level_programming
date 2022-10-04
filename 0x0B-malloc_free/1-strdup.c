@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	unsigned long int i, j;
 	char *ptr;
 
-	ptr = malloc(sizeof(char) * strlen(str));
+	ptr = malloc(sizeof(char *) * str);
 	j = 0;
 
 	if (str == NULL)
