@@ -3,10 +3,8 @@
 #include <stdlib.h>
 
 /**
- * print_dog - prints a structure
- * @d: pointer to the structure
- *
- * Return: void
+ * print_dog - Prints a struct dog.
+ * @d: The struct dog to be printed.
  */
 void print_dog(struct dog *d)
 {
@@ -27,6 +25,5 @@ void print_dog(struct dog *d)
 		printf("Owner: (nil)\n");
 	else
 		printf("Owner: %s\n", d->owner);
-
 }
 
