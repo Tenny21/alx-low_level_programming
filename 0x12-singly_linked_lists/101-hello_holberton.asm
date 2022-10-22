@@ -8,6 +8,8 @@ push rbp
 	mov rax, 0	; printf is a varargs
 	call printf
 
+	pop rbp
+
 	mov rax, 0	; process termination service
 	ret
 
