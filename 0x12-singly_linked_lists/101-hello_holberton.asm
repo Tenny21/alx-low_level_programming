@@ -1,18 +1,17 @@
 Section .text
 	extern printf
-	global main, _start
+	global main
 main:
-_start
-	mov esi, msg	; 64-bit ABI passing order starts w/edi, esi.
-	mov edi, fmt	;
-	mov eax, 0	; printf is a varargs
+push rbp
+	mov rsi, msg	; 64-bit ABI passing order starts w/edi, esi.
+	mov rdi, fmt	;
+	mov rax, 0	; printf is a varargs
 	call printf
 
-	mov ebx, 0	; normal-exit code
-	mov eax, 1	; process termination service
-	int 0x80	; linux kernel services
+	mov rax, 0	; process termination service
+	ret
 
 Section .data
-	msg: db "Hello, Holberton", 0xa
+	msg: db "Hello, Holberton", 0
 	fmt: db "%s", 10, 0
 
