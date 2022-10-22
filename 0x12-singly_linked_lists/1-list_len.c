@@ -10,6 +10,7 @@ size_t list_len(const list_t *h)
 {
 	size_t num_of_elements = 0;
 	const list_t *p = h;
+
 	while (p)
 	{
 		num_of_elements++;
